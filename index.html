@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Active Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Active
+  * Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <!-- <h1 class="sitename">The Book</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="services.html">Nosso Produto</a></li>
+          <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+          <li><a href="team.html">Time</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2" data-aos="fade-up" data-aos-delay="400">
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "breakpoints": {
+                    "320": {
+                      "slidesPerView": 1,
+                      "spaceBetween": 40
+                    },
+                    "1200": {
+                      "slidesPerView": 1,
+                      "spaceBetween": 1
+                    }
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/cozinha.jpg" alt="Image" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/cozinha3.jpg" alt="Image" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/app.jpg" alt="Image" class="img-fluid">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="col-lg-4 order-lg-1">
+            <span class="section-subtitle" data-aos="fade-up">Bem-vindo!</span>
+            <h1 class="mb-4" data-aos="fade-up">
+              Cozinhando Juntos, Compartilhando Sabores.
+            </h1>
+            <p data-aos="fade-up">
+              A primeira plataforma colaborativa de receitas que une apaixonados por culinária em uma comunidade dinâmica e interativa. Nossa missão é transformar o ato de cozinhar em uma experiência social rica, onde as pessoas podem descobrir, compartilhar e personalizar receitas de todo o mundo. Ao empoderar tanto chefs amadores quanto profissionais, o The book tem o potencial de se tornar o ponto de encontro global para a criação e troca de receitas, inspirando milhões de cozinheiros a inovar na cozinha.
+            </p>
+            <!-- <p class="mt-5" data-aos="fade-up">
+              <a href="#" class="btn btn-get-started">Get Started</a>
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- About 2 Section -->
+    <section id="about-2" class="about-2 section light-background">
+
+      <div class="container">
+        <div class="content">
+          <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
+              <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
+                <div class="img">
+                  <img src="assets/img/comunidade.png" alt="circle image" class="img-fluid">
+                </div>
+              </div>
+            </div>
+
+            <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
+              <div class="px-3">
+                <span class="content-subtitle">Nossa Missão</span>
+                <h2 class="content-title text-start">
+                  Criar uma comunidade de amantes da culinária.
+                </h2>
+                <p class="lead">
+                  Nossa missão é conectar pessoas para que possam compartilhar e descobrir receitas de forma colaborativa.
+                </p>
+                <p class="mb-5">
+                  Queremos inspirar a criatividade na cozinha, promovendo a diversidade de sabores e culturas, e tornando a culinária uma experiência social acessível a todos. Cada receita conta uma história, e nosso objetivo é unir essas histórias em um único lugar.
+                </p>
+                <!-- <p>
+                  <a href="#" class="btn-get-started">Get Started</a>
+                </p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About 2 Section -->
+
+<!-- Services Section -->
+<section id="services" class="services section light-background">
+
+  <div class="container">
+
+          <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nossos Valores</h2>
+      </div><!-- End Section Title -->
+      <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-3">
+              <div class="services-item" data-aos="fade-up">
+                  <div class="services-icon">
+                      <i class="bi bi-people"></i> <!-- Ícone de comunidade -->
+                  </div>
+                  <div>
+                      <h3>Comunidade Colaborativa</h3>
+                      <p>Conecte-se com outros entusiastas da culinária para compartilhar receitas, dicas e experiências.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="100">
+                  <div class="services-icon">
+                      <i class="bi bi-globe"></i> <!-- Ícone de globalização -->
+                  </div>
+                  <div>
+                      <h3>Acesso Global a Sabores</h3>
+                      <p>Descubra receitas de diversas culturas e explore a culinária de todo o mundo.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+                  <div class="services-icon">
+                      <i class="bi bi-pencil-square"></i> <!-- Ícone de personalização -->
+                  </div>
+                  <div>
+                      <h3>Personalização e Criatividade</h3>
+                      <p>Adicione suas próprias variações às receitas e compartilhe suas criações únicas com a comunidade.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="services-icon">
+                      <i class="bi bi-lightbulb"></i> <!-- Ícone de facilidade -->
+                  </div>
+                  <div>
+                      <h3>Facilidade e Acessibilidade</h3>
+                      <p>Desfrute de ferramentas simples para encontrar, salvar e seguir receitas, seja você iniciante ou profissional.</p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</section><!-- /Services Section -->
+
+
+    <!-- Stats Section -->
+    <!-- <section id="stats" class="stats section light-background"> -->
+<!-- 
+      <div class="container">
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-5">
+            <div class="images-overlap">
+              <img src="assets/img/img_v_1.jpg" alt="student" class="img-fluid img-1" data-aos="fade-up">
+            </div>
+          </div>
+
+          <div class="col-lg-4 ps-lg-5">
+            <span class="content-subtitle">Why Us</span>
+            <h2 class="content-title">Far far away Behind the Word Mountains</h2>
+            <p class="lead">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia.
+            </p>
+            <p class="mb-5">
+              There live the blind texts. Separated they live in Bookmarksgrove
+              right at the coast of the Semantics, a large language ocean.
+            </p>
+            <div class="row mb-5 count-numbers"> -->
+
+              <!-- Start Stats Item -->
+              <!-- <div class="col-4 counter" data-aos="fade-up" data-aos-delay="100">
+                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="3919" data-purecounter-duration="1" class="purecounter number"></span>
+                <span class="d-block">Coffee</span>
+              </div> -->
+              <!-- End Stats Item -->
+
+              <!-- Start Stats Item -->
+              <!-- <div class="col-4 counter" data-aos="fade-up" data-aos-delay="200">
+                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="2831" data-purecounter-duration="1" class="purecounter number"></span>
+                <span class="d-block">Codes</span>
+              </div> -->
+              <!-- End Stats Item -->
+
+              <!-- Start Stats Item -->
+              <!-- <div class="col-4 counter" data-aos="fade-up" data-aos-delay="300">
+                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="1914" data-purecounter-duration="1" class="purecounter number"></span>
+                <span class="d-block">Projects</span>
+              </div> -->
+              <!-- End Stats Item -->
+
+            <!-- </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    
+    <!-- /Stats Section -->
+
+    <!-- Captação de Recursos Section -->
+<section id="captacao-recursos" class="blog-posts section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <p>Por que investir?</p>
+    <h2>Vantagens de apoiar nosso projeto</h2>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
+          <a href="#" class="thumb d-block">
+            <img src="assets/img/receita2.jpg" alt="Investimento 1" class="img-fluid rounded">
+          </a>
+
+          <div class="post-content">
+            <div class="meta">
+              <a href="#" class="cat">Investimento</a> •
+              <span class="date">Setembro 25, 2024</span>
+            </div>
+            <h3><a href="#">Impacto no mercado de receitas digitais</a></h3>
+            <p>
+              O mercado de culinária digital está em plena expansão. Com nossa plataforma inovadora, os investidores terão a oportunidade de fazer parte de um segmento que cresce a cada ano, conectando apaixonados por culinária de maneira única.
+            </p>
+
+            <!-- <div class="d-flex author align-items-center">
+              <div class="pic">
+                <img src="assets/img/team/team-3.jpg" alt="Autor 1" class="img-fluid rounded-circle">
+              </div>
+              <div class="author-name">
+                <strong class="d-block">Equipe The book</strong>
+                <span>Equipe de Desenvolvimento</span>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
+          <a href="#" class="thumb d-block">
+            <img src="assets/img/receita.jpg" alt="Investimento 2" class="img-fluid rounded">
+          </a>
+
+          <div class="post-content">
+            <div class="meta">
+              <a href="#" class="cat">Investimento</a> •
+              <span class="date">Setembro 25, 2024</span>
+            </div>
+            <h3><a href="#">Modelo de receita escalável</a></h3>
+            <p>
+              Nosso modelo de negócios inclui assinaturas premium, publicidade e parcerias, oferecendo aos investidores várias fontes de receita e um grande potencial de retorno financeiro.
+            </p>
+
+            <!-- <div class="d-flex author align-items-center">
+              <div class="pic">
+                <img src="assets/img/team/team-2.jpg" alt="Autor 2" class="img-fluid rounded-circle">
+              </div>
+              <div class="author-name">
+                <strong class="d-block">Equipe The book</strong>
+                <span>Equipe de Negócios</span>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="post-entry" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="thumb d-block">
+            <img src="assets/img/receita3.png" alt="Investimento 3" class="img-fluid rounded">
+          </a>
+
+          <div class="post-content">
+            <div class="meta">
+              <a href="#" class="cat">Investimento</a> •
+              <span class="date">Setembro 25, 2024</span>
+            </div>
+            <h3><a href="#">Inovação e tecnologia a favor da gastronomia</a></h3>
+            <p>
+              A plataforma usa tecnologia avançada para proporcionar uma experiência intuitiva aos usuários. O investimento em inovação garante vantagem competitiva e potencial de disrupção no mercado.
+            </p>
+
+            <!-- <div class="d-flex author align-items-center">
+              <div class="pic">
+                <img src="assets/img/team/team-1.jpg" alt="Autor 3" class="img-fluid rounded-circle">
+              </div>
+              <div class="author-name">
+                <strong class="d-block">Equipe The book</strong>
+                <span>Equipe de Tecnologia</span>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /Captação de Recursos Section -->
+
+
+    <!-- Tabs Section -->
+<section id="tabs" class="tabs section light-background">
+
+  <div class="container">
+    <div class="row gap-x-lg-4 justify-content-between">
+
+      <div class="col-lg-4 js-custom-dots">
+        <a href="#" class="service-item link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
+          <div class="service-icon color-1 mb-4">
+            <i class="bi bi-book"></i>
+          </div>
+          <!-- /.icon -->
+          <div class="service-contents">
+            <h3>Compartilhamento de Receitas</h3>
+            <p>
+              Permita que os usuários compartilhem suas receitas favoritas com a comunidade.
+            </p>
+          </div>
+          <!-- /.service-contents-->
+        </a>
+        <!-- /.service -->
+
+        <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="100">
+          <div class="service-icon color-2 mb-4">
+            <i class="bi bi-search"></i>
+          </div>
+          <!-- /.icon -->
+          <div class="service-contents">
+            <h3>Pesquisa Avançada</h3>
+            <p>
+              Encontre receitas de acordo com ingredientes, categorias e preferências.
+            </p>
+          </div>
+          <!-- /.service-contents-->
+        </a>
+        <!-- /.service -->
+
+        <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="200">
+          <div class="service-icon color-3 mb-4">
+            <i class="bi bi-heart"></i>
+          </div>
+          <!-- /.icon -->
+          <div class="service-contents">
+            <h3>Favoritos</h3>
+            <p>
+              Salve suas receitas preferidas em um só lugar para fácil acesso.
+            </p>
+          </div>
+          <!-- /.service-contents-->
+        </a>
+        <!-- /.service -->
+
+        <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="300">
+          <div class="service-icon color-4 mb-4">
+            <i class="bi bi-chat-dots"></i>
+          </div>
+          <!-- /.icon -->
+          <div class="service-contents">
+            <h3>Comentários e Avaliações</h3>
+            <p>
+              Interaja com outros usuários através de comentários e avaliações de receitas.
+            </p>
+          </div>
+          <!-- /.service-contents-->
+        </a>
+        <!-- /.service -->
+      </div>
+
+      <div class="col-lg-8">
+        <div class="swiper init-swiper-tabs">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoHeight": true,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img/compartilhar.png" alt="Image" class="img-fluid">
+              <div class="p-4">
+                <h3 class="text-black h5 mb-3">Compartilhamento de Receitas</h3>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <p>
+                      Compartilhe suas receitas favoritas e explore criações de outros usuários na comunidade. Facilite a troca de experiências culinárias.
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list-unstyled list-check">
+                      <li>Suba suas próprias receitas</li>
+                      <li>Explore receitas populares</li>
+                      <li>Contribua para a comunidade</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/pesquisa.png" alt="Image" class="img-fluid">
+              <div class="p-4">
+                <h3 class="text-black h5 mb-3">Pesquisa Avançada</h3>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <p>
+                      Com nossa busca refinada, encontre receitas de acordo com seus ingredientes disponíveis ou preferências alimentares.
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list-unstyled list-check">
+                      <li>Filtre por ingredientes</li>
+                      <li>Busque por categorias</li>
+                      <li>Personalize suas buscas</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/favoritos.png" alt="Image" class="img-fluid">
+              <div class="p-4">
+                <h3 class="text-black h5 mb-3">Favoritos</h3>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <p>
+                      Guarde suas receitas favoritas em um só lugar para acessá-las facilmente e revisitá-las sempre que quiser.
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list-unstyled list-check">
+                      <li>Salve receitas</li>
+                      <li>Organize em categorias</li>
+                      <li>Acesse rapidamente</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/coment.png" alt="Image" class="img-fluid">
+              <div class="p-4">
+                <h3 class="text-black h5 mb-3">Comentários e Avaliações</h3>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <p>
+                      Avalie e comente nas receitas que você experimentou, ajudando outros usuários a escolherem as melhores opções.
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list-unstyled list-check">
+                      <li>Avalie as receitas</li>
+                      <li>Escreva comentários</li>
+                      <li>Interaja com a comunidade</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /Tabs Section -->
+
+
+    <!-- Services 2 Section -->
+<section id="services-2" class="services-2 section">
+
+  <div class="container">
+    <div class="row justify-content-center" data-aos="fade-up">
+      <div class="col-md-6 col-lg-4">
+        <span class="content-subtitle">Nossas Fontes de Receita</span>
+        <h2 class="content-title">
+          Monetizando a experiência do The book
+        </h2>
+        <p class="lead">
+          Através de várias estratégias de monetização, o The book oferece valor aos usuários enquanto gera receita sustentável.
+        </p>
+        <p class="mb-5">
+          Nossa abordagem foca em tornar a experiência do usuário mais rica e acessível, sem comprometer a qualidade.
+        </p>
+        <!-- <p>
+          <a href="#" class="btn btn-get-started">Saiba Mais</a>
+        </p> -->
+      </div>
+      <div class="col-md-6 col-lg-6 ps-lg-5">
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="services-item" data-aos="fade-up" data-aos-delay="">
+              <div class="services-icon">
+                <i class="bi bi-bag"></i>
+              </div>
+              <div>
+                <h3>Assinaturas Premium</h3>
+                <p>
+                  Ofereça aos usuários acesso exclusivo a funcionalidades avançadas, como dicas de chefs e receitas exclusivas, através de planos mensais ou anuais.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="services-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="services-icon">
+                <i class="bi bi-cash"></i>
+              </div>
+              <div>
+                <h3>Publicidade Direcionada</h3>
+                <p>
+                  Integração de anúncios relevantes para os usuários, com foco em produtos alimentícios, utensílios de cozinha e mais.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="services-icon">
+                <i class="bi bi-shop"></i>
+              </div>
+              <div>
+                <h3>Parcerias com Marcas</h3>
+                <p>
+                  Criação de parcerias estratégicas com marcas do setor alimentício para promover produtos em receitas patrocinadas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="services-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="services-icon">
+                <i class="bi bi-cart"></i>
+              </div>
+              <div>
+                <h3>E-commerce Integrado</h3>
+                <p>
+                  Venda de produtos como livros de receitas, utensílios de cozinha e ingredientes diretamente através da plataforma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /Services 2 Section -->
+
+
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="row justify-content-center g-4">
+        <!-- Seção Sobre Nós -->
+        <div class="col-md-6 col-lg-4 mb-3 mb-md-0 text-center">
+          <div class="widget">
+            <h3 class="widget-heading">Sobre Nós</h3>
+            <p class="mb-4">
+              Conheça mais sobre nós
+            </p>
+            <p class="mb-0">
+              <a href="about.html" class="btn-learn-more">Saiba mais</a>
+            </p>
+          </div>
+        </div>
+        
+        <!-- Seção Conectar -->
+        <div class="col-md-6 col-lg-4 mb-3 mb-md-0 text-center">
+          <div class="widget">
+            <h3 class="widget-heading">Conectar</h3>
+            <ul class="list-unstyled social-icons light mb-3">
+              <li><a href="#"><span class="bi bi-facebook"></span></a></li>
+              <li><a href="#"><span class="bi bi-twitter-x"></span></a></li>
+              <li><a href="#"><span class="bi bi-linkedin"></span></a></li>
+              <li><a href="#"><span class="bi bi-google"></span></a></li>
+              <li><a href="#"><span class="bi bi-google-play"></span></a></li>
+            </ul>
+          </div>
+  
+          <div class="widget">
+            <div class="footer-subscribe">
+              <h3 class="widget-heading">Inscreva-se</h3>
+              <form action="forms/newsletter.php" method="post" class="php-email-form">
+                <div class="mb-2 d-flex justify-content-center">
+                  <input type="text" class="form-control" name="email" placeholder="Digite seu e-mail" style="max-width: 300px;">
+                  <button type="submit" class="btn btn-link">
+                    <span class="bi bi-arrow-right"></span>
+                  </button>
+                </div>
+                <div class="loading">Carregando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Sua solicitação de inscrição foi enviada. Obrigado!
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Seção de Direitos Autorais -->
+      <div class="copyright d-flex flex-column align-items-center mt-4">
+        <p>© <span>Direitos Autorais</span> <strong class="px-1 sitename">Active.</strong> <span>Todos os Direitos Reservados</span></p>
+        <div class="credits">
+          Design por <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
